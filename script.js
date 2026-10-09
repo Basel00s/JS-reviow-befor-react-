@@ -149,5 +149,5 @@ const{title} = Book;
 const SecondBook = getBook(5)
 const [first,second,...otherGenres] = SecondBook.genres
 const newOne =[...otherGenres,"Epic hehehe"]
-
 const veryNewOne = [...SecondBook.genres,"hehehe"]
+
